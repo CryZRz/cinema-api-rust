@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: cinema-config
+  namespace: cinema-system
+data:
+  SERVER_HOST: "0.0.0.0"
+  SERVER_PORT: "8080"
+  POSTGRES_DB: "cinema_db"
+  POSTGRES_HOST: "cinema-db"
+  POSTGRES_PORT: "5432"
